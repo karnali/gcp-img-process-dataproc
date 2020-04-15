@@ -1,4 +1,4 @@
-# GCP Distributed Image Processing in Cloud Dataproc.  
+# GCP Distributed Image Processing in Cloud Dataproc  
 
 Spin up a Cloud Dataproc cluster in GCP and run distributed Image Processing in Cloud Dataproc.    
 
@@ -117,9 +117,9 @@ Console > Navigation menu > Dataproc > Jobs
 
 #### Download images to your computer
 
-Console > Navigation menu > Storage > student-imagexxxx > Out
+##### Console > Navigation menu > Storage > student-imagexxxx > Out
 
-Console > Navigation menu > Storage > student-imagexxxx > imgs
+##### Console > Navigation menu > Storage > student-imagexxxx > imgs
 
 #### Try the API 
 https://cloud.google.com/vision/#industry-leading-accuracy-for-image-understanding
