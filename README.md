@@ -13,11 +13,11 @@ the following steps.
 
 #### Create a development machine in Compute Engine
 
-In the Google Cloud Console, go to Compute Engine > VM Instances > Create
+In the Google Cloud Console, go to #### Compute Engine > VM Instances > Create
 
-Configure VM Instances - Name: devhost Machine 
-	 	       - Type: 2 vCPUs (n1-standard-2 instance)
-		       - Identity and API Access: Allow full access to all Cloud APIs.
+Configure VM Instances - #### Name: devhost  
+	 	       - #### Type: 2 vCPUs (n1-standard-2 instance)
+		       - #### Identity and API Access: Allow full access to all Cloud APIs.
 
 
 #### Install Software:
