@@ -13,16 +13,18 @@ the following steps.
 
 #### Create a development machine in Compute Engine
 
-In the Google Cloud Console, go to #### Compute Engine > VM Instances > Create
+##### In the Google Cloud Console, go to  
+Compute Engine > VM Instances > Create
 
-Configure VM Instances - #### Name: devhost  
-	 	       - #### Type: 2 vCPUs (n1-standard-2 instance)
-		       - #### Identity and API Access: Allow full access to all Cloud APIs.
+##### Configure VM Instances 
+-  Name: devhost  
+-  Type: 2 vCPUs (n1-standard-2 instance)
+-  Identity and API Access: Allow full access to all Cloud APIs.
 
 
 #### Install Software:
 
-Set up Scala and sbt using SSH window
+##### Set up Scala and sbt using SSH window
 ```
 $ sudo apt-get install -y dirmngr
 $ sudo apt-get update
@@ -33,7 +35,7 @@ $ sudo apt-get update
 $ sudo apt-get install -y bc scala sbt
 ```
 
-#### Set up the Feature Detector Files
+##### Set up the Feature Detector Files
 
 ```
 $ sudo apt-get update
