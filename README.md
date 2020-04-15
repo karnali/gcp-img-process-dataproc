@@ -1,4 +1,5 @@
-# gcp-img-process-dataproc
+# GCP Distributed Image Processing in Cloud Dataproc.  
+
 Spin up a Cloud Dataproc cluster in GCP and run distributed Image Processing in Cloud Dataproc.    
 
 This project will demonstarte how to use Apache Spark on Cloud Dataproc to distribute a   
