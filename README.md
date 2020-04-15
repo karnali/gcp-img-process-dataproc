@@ -117,10 +117,15 @@ Console > Navigation menu > Dataproc > Jobs
 
 #### Download images to your computer
 
-##### Console > Navigation menu > Storage > student-imagexxxx > Out
-
-##### Console > Navigation menu > Storage > student-imagexxxx > imgs
+``` 
+Console > Navigation menu > Storage > student-imagexxxx > Out
+```
+```
+onsole > Navigation menu > Storage > student-imagexxxx > imgs
+```
 
 #### Try the API 
+```
 https://cloud.google.com/vision/#industry-leading-accuracy-for-image-understanding
+```
 
