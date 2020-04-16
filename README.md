@@ -122,7 +122,7 @@ Console > Navigation menu > Dataproc > Jobs
 Console > Navigation menu > Storage > student-imagexxxx > Out
 ```
 ```
-onsole > Navigation menu > Storage > student-imagexxxx > imgs
+Console > Navigation menu > Storage > student-imagexxxx > imgs
 ```
 
 #### Vision API 
