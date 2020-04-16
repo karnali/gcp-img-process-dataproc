@@ -1,6 +1,7 @@
-# GCP Distributed Image Processing in Cloud Dataproc  
+# GCP - Distributed Image Processing in Cloud Dataproc  
 
-Spin up a Cloud Dataproc cluster in GCP and run distributed Image Processing in Cloud Dataproc.    
+Spin up a Cloud Dataproc cluster in GCP and run distributed Image Processing in Cloud Dataproc.      
+Cloud Dataproc is a managed Spark and Hadoop service that lets you take advantage of open source data tools for batch processing, querying, streaming, and machine learning. 
 
 This project will demonstarte how to use Apache Spark on Cloud Dataproc to distribute a   
 computationally intensive image processing task onto a cluster of machines. We will perform  
@@ -124,8 +125,30 @@ Console > Navigation menu > Storage > student-imagexxxx > Out
 onsole > Navigation menu > Storage > student-imagexxxx > imgs
 ```
 
-#### Try the API 
+#### Vision API 
 ```
 https://cloud.google.com/vision/#industry-leading-accuracy-for-image-understanding
 ```
 
+
+
+
+### Cleanup Project resources.
+
+#### Delete cluster
+```
+$ gcloud dataproc clusters delete ${MYCLUSTER}
+```
+
+### Delete the bucket 
+```
+$ gsutil rm "gs://${MYBUCKET}/**"
+$ gsutil rb gs://${MYBUCKET}
+```
+
+### Remove cloud-dataproc from home directory and exit CloudShell
+```
+$ cd
+$ sudo rm -rf cloud-dataproc
+$ exit
+```
